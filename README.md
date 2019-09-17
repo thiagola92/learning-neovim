@@ -4,6 +4,8 @@ Por exemplo, é fácil lembrar que `d` é apagar pois a letra d vem de **D**elet
 
 Usarei português e inglês quando julgar apropriado (quando eu quiser).  
 
+É bom ter um conhecimento de programação para usar Vim. Por exemplo, sabe que "salvar" o arquivo é nada mais que "escrever em cima do anterior".  
+
 ## Instructions
 * Eu vou referênciar a teclas utilizando o formato de "uma linha de código" do Markdown.  
   * tecla `y`, tecla `p`, tecla `d`, tecla `;`...  
@@ -28,7 +30,7 @@ Vim é dividido em 3 modos, cada um com funcionalidades diferente. As funcionali
 | **I**nsert Mode | Inserir texto | | `i` |
 | **V**isual Mode | Selecionar texto | | `v` |
 
-![Normal mode, Insert mode and Visual mode](modes.jpg)  
+![Imagem mostrando a mudança de modos](modes.jpg)  
 
 Se você está no Normal Mode, você pode ir para o **I**nsert Mode apertando a tecla `i`.  
 Se você está no Normal Mode, você pode ir para o **V**isual Mode apertando a tecla `v`.  
@@ -55,4 +57,9 @@ As teclas normais são guardadas para comandos muito utilizados durante o Vim, s
 ## Quit
 `:quit` encerra o Vim.  
 
-Editores normais detectam se você fez alteração no texto antes de você fechar eles, caso tenha feito uma janela aparece perguntando se deve salvar, ignorar ou cancelar.  
+Editores normais detectam se você fez alteração no texto antes de você encerrar eles, caso tenha feito uma janela aparece perguntando se deve salvar, ignorar ou cancelar.  
+![Janela mostrando que o editor de texto pergunta se deve salvar, sair sem salvar ou cancelar](quit.png)  
+
+Vim também detecta se você alterou o texto antes de encerra-lo, mas diferente dos outros editores ele não exibe uma janela ou pergunta a você o que deve fazer, ele toma o caminho mais seguro que é **cancelar**.  
+
+Se você fez alterações e você não liga para descartar estas alterações, você precisa 
