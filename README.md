@@ -5,21 +5,22 @@ Por exemplo, é fácil lembrar que `d` é apagar pois a letra d vem de **D**elet
 Usarei português e inglês quando julgar apropriado (quando eu quiser).  
 
 ## Instructions
-* Eu vou referênciar a teclas utilizando o formato de "uma linha de código" do Markdow.  
-  * tecla `y`, tecla `p`, tecla `d`...  
-* Neovim é sensível a caracter, ou seja, apertar `d` é diferente de apertar `D` (shift + d)  
-  * tecla `Y`, tecla `P`, tecla `D`...  
+* Eu vou referênciar a teclas utilizando o formato de "uma linha de código" do Markdown.  
+  * tecla `y`, tecla `p`, tecla `d`, tecla `;`...  
+* Vim é sensível a caracter, ou seja, apertar `d` é diferente de apertar `D` (shift + d)  
+  * tecla `Y`, tecla `P`, tecla `D`, tecla `:`...  
 * Se a tecla não for uma letra apenas, vou escrever o nome da tecla entre "<" e ">".  
   * tecla `<up>`, tecla `<down>`, tecla `<esc>`...  
 * Apertar uma combinação de teclas ao mesmo tempo vai ser representado com um sinal de + fora da formatação de tecla.  
   * teclas `<ctrl>` + `w`...  
 * Apertar uma sequência de teclas vai ser representado em apenas uma formatação.  
-  * apertar teclas `ydp`...  
+  * apertar teclas `ydp` (`y`,`d`,`p`), apertar teclas `:q!<enter>` (`:`,`q`,`!`,`<enter>`)...  
+* Qualquer outro caso eu tentarei deixar claro o que você deve apertar.  
 
 # Modes
 Vim é dividido em 3 modos, cada um com funcionalidades diferente. As funcionalidades das suas teclas variam em cada modo.  
 
-> É por isso que pessoas novas ficam perdidas no vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
+É por isso que pessoas novas ficam perdidas no vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
 
 | Modo | Utilidade |     | Atalho |
 | ---- | --------- | --- | ------ |
@@ -47,3 +48,11 @@ Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift
 | `<shift>` + `<left>` | mover para o início da palavra anterior | `<ctrl>` + `<left>` |
 
 # Visual Mode
+
+# Normal Mode
+As teclas normais são guardadas para comandos muito utilizados durante o Vim, sair do Vim não é um deles :poop:  
+
+## Quit
+`:quit` encerra o Vim.  
+
+Editores normais detectam se você fez alteração no texto antes de você fechar eles, caso tenha feito uma janela aparece perguntando se deve salvar, ignorar ou cancelar.  
