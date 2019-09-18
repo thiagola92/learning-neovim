@@ -22,13 +22,13 @@ Usarei português e inglês quando julgar apropriado (quando eu quiser).
 # Modes
 Vim é dividido em 3 modos, cada um com funcionalidades diferente. As funcionalidades das suas teclas variam em cada modo.  
 
-É por isso que pessoas novas ficam perdidas no vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
+É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
 
-| Modo            | Utilidade         |                  | Atalho |
-| --------------- | ----------------- | ---------------- | ------ |
-| Normal Mode     | Executar comandos | **default mode** |        |
-| **I**nsert Mode | Inserir texto     |                  | `i`    |
-| **V**isual Mode | Selecionar texto  |                  | `v`    |
+| Modo            | Utilidade         |                  | Atalho | Sair do modo |
+| --------------- | ----------------- | ---------------- | ------ | ------------ |
+| Normal Mode     | Executar comandos | **default mode** |        |              |
+| **I**nsert Mode | Inserir texto     |                  | `i`    | `<esc>`      |
+| **V**isual Mode | Selecionar texto  |                  | `v`    | `<esc>`      |
 
 ![Imagem mostrando a mudança de modos](modes.jpg)  
 
@@ -42,7 +42,7 @@ No início esse vai ser o seu modo mais utilizado pois ele te lembra de como qua
 ## Shift
 Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift>`, você deve notar rápido que não é possvel selecionar parte do texto nesse modo, para selecionar texto é preciso ir para o modo Visual Mode.  
 
-> Shift funciona de maneira engraçada pois dependendo da tecla com qual você utilizar, você vai reproduzir exatamente a mesma coisa que outro atalho faria...  
+Shift funciona de maneira engraçada pois dependendo da tecla com qual você utilizar, você vai reproduzir exatamente a mesma coisa que outro atalho faria...  
 
 | Atalho                | Ação                                    | Atalho similar       |
 | --------------------- | --------------------------------------- | -------------------- |
@@ -64,6 +64,7 @@ Vim também detecta se você alterou o texto antes de encerra-lo, mas diferente 
 
 Se você fez alterações e você não liga de encerrar sem salvar, tudo que você precisa fazer é forçar o comando quit.  
 `:quit!` encerra independente se houver alterações no arquivo.  
+Isto é equivalente a tomar o caminho **sair sem salvar**.  
 
 Não é muito difícil lembrar que forçar um comando é botar um ponto de exclamação nele, basicamente você está gritando com ele para ele executar. :rage: Just do it!  
 
@@ -72,4 +73,9 @@ Não é muito difícil lembrar que forçar um comando é botar um ponto de excla
 | `:quit`  | Tenta encerrar       | `:q`     |
 | `:quit!` | Força o encerramento | `:q!`    |
 
+Para entender **salvar**, vá para a próxima seção.  
+
 ## Write
+`:w` escreve no arquivo.  
+
+O que é "salvar arquivo"? É simplesmente você pegar o texto que está aparecendo no seu editor e escrever no arquivo.  
