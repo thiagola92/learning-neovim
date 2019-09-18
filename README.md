@@ -24,11 +24,11 @@ Vim é dividido em 3 modos, cada um com funcionalidades diferente. As funcionali
 
 É por isso que pessoas novas ficam perdidas no vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
 
-| Modo | Utilidade |     | Atalho |
-| ---- | --------- | --- | ------ |
-| Normal Mode | Executar comandos | **default mode** | |
-| **I**nsert Mode | Inserir texto | | `i` |
-| **V**isual Mode | Selecionar texto | | `v` |
+| Modo            | Utilidade         |                  | Atalho |
+| --------------- | ----------------- | ---------------- | ------ |
+| Normal Mode     | Executar comandos | **default mode** |        |
+| **I**nsert Mode | Inserir texto     |                  | `i`    |
+| **V**isual Mode | Selecionar texto  |                  | `v`    |
 
 ![Imagem mostrando a mudança de modos](modes.jpg)  
 
@@ -44,10 +44,10 @@ Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift
 
 > Shift funciona de maneira engraçada pois dependendo da tecla com qual você utilizar, você vai reproduzir exatamente a mesma coisa que outro atalho faria...  
 
-| Atalho | Ação | Atalho similar |
-| ------ | ---- | -------------- |
+| Atalho                | Ação                                    | Atalho similar       |
+| --------------------- | --------------------------------------- | -------------------- |
 | `<shift>` + `<right>` | mover para o início da palavra seguinte | `<ctrl>` + `<right>` |
-| `<shift>` + `<left>` | mover para o início da palavra anterior | `<ctrl>` + `<left>` |
+| `<shift>` + `<left>`  | mover para o início da palavra anterior | `<ctrl>` + `<left>`  |
 
 # Visual Mode
 
@@ -60,6 +60,16 @@ As teclas normais são guardadas para comandos muito utilizados durante o Vim, s
 Editores normais detectam se você fez alteração no texto antes de você encerrar eles, caso tenha feito uma janela aparece perguntando se deve salvar, ignorar ou cancelar.  
 ![Janela mostrando que o editor de texto pergunta se deve salvar, sair sem salvar ou cancelar](quit.png)  
 
-Vim também detecta se você alterou o texto antes de encerra-lo, mas diferente dos outros editores ele não exibe uma janela ou pergunta a você o que deve fazer, ele toma o caminho mais seguro que é **cancelar**.  
+Vim também detecta se você alterou o texto antes de encerra-lo, mas diferente dos outros editores ele não exibe uma janela perguntando a você o que deve fazer, ele toma o caminho mais seguro que é **cancelar**.  
 
-Se você fez alterações e você não liga para descartar estas alterações, você precisa 
+Se você fez alterações e você não liga de encerrar sem salvar, tudo que você precisa fazer é forçar o comando quit.  
+`:quit!` encerra independente se houver alterações no arquivo.  
+
+Não é muito difícil lembrar que forçar um comando é botar um ponto de exclamação nele, basicamente você está gritando com ele para ele executar. :rage: Just do it!  
+
+| Comando  | Ação                 | Sinônimo |
+| -------- | -------------------- | -------- |
+| `:quit`  | Tenta encerrar       | `:q`     |
+| `:quit!` | Força o encerramento | `:q!`    |
+
+## Write
