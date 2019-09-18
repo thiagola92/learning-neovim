@@ -20,21 +20,16 @@ Usarei português e inglês quando julgar apropriado (quando eu quiser).
 * Qualquer outro caso eu tentarei deixar claro o que você deve apertar.  
 
 # Modes
-Vim é dividido em 3 modos, cada um com funcionalidades diferente. As funcionalidades das suas teclas variam em cada modo.  
+No Vim existe muitos modos, as funcionalidades das suas teclas variam em cada modo.  
 
 É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
 
-| Modo            | Utilidade         |                  | Atalho | Sair do modo |
-| --------------- | ----------------- | ---------------- | ------ | ------------ |
-| Normal Mode     | Executar comandos | **default mode** |        |              |
-| **I**nsert Mode | Inserir texto     |                  | `i`    | `<esc>`      |
-| **V**isual Mode | Selecionar texto  |                  | `v`    | `<esc>`      |
-
-![Imagem mostrando a mudança de modos](modes.jpg)  
-
-Se você está no Normal Mode, você pode ir para o **I**nsert Mode apertando a tecla `i`.  
-Se você está no Normal Mode, você pode ir para o **V**isual Mode apertando a tecla `v`.  
-Se você está no Insert Mode ou Visual Mode, você pode voltar para o Normal Mode apertando a tecla `<esc>`.  
+| Modo              | Utilidade         |                  | Atalho | Sair do modo |
+| ----------------- | ----------------- | ---------------- | ------ | ------------ |
+| Normal Mode       | Executar comandos | **default mode** |        |              |
+| **I**nsert Mode   | Inserir texto     |                  | `i`    | `<esc>`      |
+| **V**isual Mode   | Selecionar texto  |                  | `v`    | `<esc>`      |
+| Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |
 
 # Insert Mode
 No início esse vai ser o seu modo mais utilizado pois ele te lembra de como qualquer editor normal funciona, ou seja, você aperta uma tecla e ela é escrita na tela.  
@@ -53,6 +48,8 @@ Shift funciona de maneira engraçada pois dependendo da tecla com qual você uti
 
 # Normal Mode
 As teclas normais são guardadas para comandos muito utilizados durante o Vim, sair do Vim não é um deles :poop:  
+
+# Command-line Mode
 
 ## Quit
 `:quit` encerra o Vim.  
@@ -73,9 +70,18 @@ Não é muito difícil lembrar que forçar um comando é botar um ponto de excla
 | `:quit`  | Tenta encerrar       | `:q`     |
 | `:quit!` | Força o encerramento | `:q!`    |
 
-Para entender **salvar**, vá para a próxima seção.  
+Para entender o caminho **salvar**, vá para a próxima seção.  
 
 ## Write
 `:w` escreve no arquivo.  
 
 O que é "salvar arquivo"? É simplesmente você pegar o texto que está aparecendo no seu editor e escrever no arquivo.  
+Isso nos permite salvar o arquivo a vontade com `:w` e quando quisermos sair podemos utilizar o comando para sair `:q`.  
+
+Porém o caminho de sair e salva é tão utilizado que existe um comando que é a combinação de ambos.  
+`:wq` escreve no arquivo e encerra o Vim.  
+
+| Comando  | Ação                  |
+| -----    | --------------------- |
+| `:w`     | Escreve no arquivo    |
+| `:wq`    | Escreve e encerra Vim |
