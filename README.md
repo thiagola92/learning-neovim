@@ -50,9 +50,8 @@ Shift funciona de maneira engraçada pois dependendo da tecla com qual você uti
 As teclas normais são guardadas para comandos muito utilizados durante o Vim, sair do Vim não é um deles :poop:  
 
 # Command-line Mode
-Imagine isso como o `<ctrl>` + `<shift>` + `p` do VSCode/Atom/Sublime.  
+Imagine isso como o command pallet do VSCode/Atom/Sublime, onde você digita um comando que deseja executar e aperta `<enter>` para executa-lo. A diferença é que os outros editores vão te sugerir comandos enquanto você digita.  
 
-Você escreve o comando que deseja usar e confirma ele apertando `<enter>`.  
 Como `<enter>` é sempre utilizado para confirmação do comando, vamos omitir ele na sintaxe.  
 Quando eu escrever `:quit`, vou querer dizer `:quit<enter>`.  
 
