@@ -32,5 +32,6 @@ No Vim existe muitos modos, as funcionalidades das suas teclas variam em cada mo
 | Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |
 
 # Chapter
+Eu ataco em ordem de importância para conseguir utilizar Vim como editor de texto.  
 
-* [Capitulo 1](chapter01.md)
+* [Capítulo 1](chapter01.md)
