@@ -4,7 +4,11 @@ Por exemplo, é fácil lembrar que `d` é apagar pois a letra d vem de **D**elet
 
 Usarei português e inglês quando julgar apropriado (quando eu quiser).  
 
-É bom ter um conhecimento de programação para usar Vim. Por exemplo, sabe que "salvar" o arquivo é nada mais que "escrever em cima do anterior".  
+É bom ter um conhecimento de programação para usar Vim. Por exemplo, saber que "salvar" o arquivo é nada mais que "escrever em cima do anterior".  
+
+Eu ataco em ordem de importância para conseguir utilizar Vim como editor de texto.  
+Por exemplo, o mais básico de um editor de texto é: escrever, salvar e sair.  
+Você deve ser capaz de **escrever** texto no arquivo, **salvar** o arquivo e **fechar** o editor de texto.  
 
 # Instructions
 * Eu vou referênciar a teclas utilizando o formato de "uma linha de código" do Markdown.  
@@ -20,6 +24,5 @@ Usarei português e inglês quando julgar apropriado (quando eu quiser).
 * Qualquer outro caso eu tentarei deixar claro o que você deve apertar.  
 
 # Chapter
-Eu ataco em ordem de importância para conseguir utilizar Vim como editor de texto.  
 
 * [Capítulo 1](chapter01.md)
