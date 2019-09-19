@@ -44,8 +44,6 @@ Shift funciona de maneira engraçada pois dependendo da tecla com qual você uti
 | `<shift>` + `<right>` | mover para o início da palavra seguinte | `<ctrl>` + `<right>` |
 | `<shift>` + `<left>`  | mover para o início da palavra anterior | `<ctrl>` + `<left>`  |
 
-# Visual Mode
-
 # Normal Mode
 As teclas normais são guardadas para comandos muito utilizados durante o Vim, sair do Vim não é um deles :poop:  
 
