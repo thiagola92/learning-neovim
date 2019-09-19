@@ -1,3 +1,15 @@
+# Modes
+No Vim existe muitos modos, as funcionalidades das suas teclas variam em cada modo.  
+
+É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
+
+| Modo              | Utilidade         |                  | Atalho | Sair do modo |
+| ----------------- | ----------------- | ---------------- | ------ | ------------ |
+| Normal Mode       | Executar comandos | **default mode** |        |              |
+| **I**nsert Mode   | Inserir texto     |                  | `i`    | `<esc>`      |
+| **V**isual Mode   | Selecionar texto  |                  | `v`    | `<esc>`      |
+| Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |
+
 # Insert Mode
 No início esse vai ser o seu modo mais utilizado pois ele te lembra de como qualquer editor normal funciona, ou seja, você aperta uma tecla e ela é escrita na tela.  
 
