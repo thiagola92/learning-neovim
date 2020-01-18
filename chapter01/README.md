@@ -9,13 +9,13 @@ Normal Mode é o modo incial, a partir dele você pode ir para outros modos e pa
 | **V**isual Mode   | Selecionar texto  |                  | `v`    | `<esc>`      |
 | Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |
 
-É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever.  
+É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever (**Insert Mode**).  
 
 # Insert Mode
 No início esse vai ser o seu modo mais utilizado pois ele te lembra de como qualquer editor normal funciona, ou seja, você aperta uma tecla e ela é escrita na tela.  
 
 ## Shift
-Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift>`, você deve notar rápido que não é possvel selecionar parte do texto nesse modo, para selecionar texto é preciso ir para o modo Visual Mode.  
+Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift>`, você deve notar rápido que não é possvel selecionar parte do texto nesse modo, para selecionar texto é preciso ir para o modo **Visual Mode**.  
 
 Shift funciona de maneira engraçada pois dependendo da tecla com qual você utilizar, você vai reproduzir exatamente a mesma coisa que outro atalho faria...  
 
@@ -24,16 +24,13 @@ Shift funciona de maneira engraçada pois dependendo da tecla com qual você uti
 | `<shift>` + `<right>` | mover para o início da palavra seguinte | `<ctrl>` + `<right>` |
 | `<shift>` + `<left>`  | mover para o início da palavra anterior | `<ctrl>` + `<left>`  |
 
-# Normal Mode
-As teclas normais são guardadas para comandos muito utilizados durante o Vim, sair do Vim não é um deles :poop:  
-
 # Command-line Mode
 Imagine isso como o command pallet do VSCode/Atom/Sublime, onde você digita um comando que deseja executar e aperta `<enter>` para executa-lo. A diferença é que os outros editores vão te sugerir comandos enquanto você digita.  
 
-Como `<enter>` é sempre utilizado para confirmação do comando, vamos omitir ele na sintaxe.  
+> Como `<enter>` é sempre utilizado para confirmação do comando, vamos omitir ele na sintaxe.  
 Quando eu escrever `:quit`, vou querer dizer `:quit<enter>`.  
 
-Por outro lado não vou omitir o `:`.  
+> Por outro lado não vou omitir o `:` (dois pontos).  
 Quando você ver um comando que começa com `:`, você deve assumir que ele apenas executará se você apertar `<enter>` ao final dele.  
 
 ## Quit
