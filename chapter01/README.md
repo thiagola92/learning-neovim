@@ -17,13 +17,6 @@ No início esse vai ser o seu modo mais utilizado pois ele te lembra de como qua
 ## Shift
 Se você está acostumado a selecionar parte do texto utilizando a tecla `<shift>`, você deve notar rápido que não é possvel selecionar parte do texto nesse modo, para selecionar texto é preciso ir para o modo **Visual Mode**.  
 
-Shift funciona de maneira engraçada pois dependendo da tecla com qual você utilizar, você vai reproduzir exatamente a mesma coisa que outro atalho faria...  
-
-| Atalho                | Ação                                    | Atalho similar       |
-| --------------------- | --------------------------------------- | -------------------- |
-| `<shift>` + `<right>` | mover para o início da palavra seguinte | `<ctrl>` + `<right>` |
-| `<shift>` + `<left>`  | mover para o início da palavra anterior | `<ctrl>` + `<left>`  |
-
 # Command-line Mode
 Imagine isso como o command pallet do VSCode/Atom/Sublime, onde você digita um comando que deseja executar e aperta `<enter>` para executa-lo. A diferença é que os outros editores vão te sugerir comandos enquanto você digita.  
 
@@ -47,10 +40,10 @@ Isto é equivalente a tomar o caminho **sair sem salvar**.
 
 Não é muito difícil lembrar que forçar um comando é botar um ponto de exclamação nele, basicamente você está gritando com ele para ele executar. :rage: Just do it!  
 
-| Comando  | Ação                 | Sinônimo |
-| -------- | -------------------- | -------- |
-| `:quit`  | Tenta encerrar       | `:q`     |
-| `:quit!` | Força o encerramento | `:q!`    |
+| Comando  | Ação                 | Dica           | Comando 2 |
+| -------- | -------------------- | -------------- | --------- |
+| `:quit`  | Tenta encerrar       | **Q**uit       | `:q`      |
+| `:quit!` | Força o encerramento | **Q**uit **!** | `:q!`     |
 
 Para entender o caminho **salvar**, vá para a próxima seção.  
 
@@ -63,7 +56,7 @@ Isso nos permite salvar o arquivo a vontade com `:w` e quando quisermos sair pod
 Porém o caminho de sair e salva é tão utilizado que existe um comando que é a combinação de ambos.  
 `:wq` escreve no arquivo e encerra o Vim.  
 
-| Comando  | Ação                  |
-| -----    | --------------------- |
-| `:w`     | Escreve no arquivo    |
-| `:wq`    | Escreve e encerra Vim |
+| Comando  | Ação                  | Dica                   |
+| -----    | --------------------- | ---------------------- |
+| `:w`     | Escreve no arquivo    | **W**rite              |
+| `:wq`    | Escreve e encerra Vim | **W**rite and **Q**uit |
