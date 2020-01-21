@@ -2,12 +2,12 @@
 No Vim existe muitos modos, as funcionalidades das suas teclas variam em cada modo.  
 Normal Mode é o modo incial, a partir dele você pode ir para outros modos e para voltar para ele basta apertar `<esc>`.  
 
-| Modo              | Utilidade         |                  | Atalho | Sair do modo |
-| ----------------- | ----------------- | ---------------- | ------ | ------------ |
-| Normal Mode       | Executar comandos | **default mode** |        |              |
-| **I**nsert Mode   | Inserir texto     |                  | `i`    | `<esc>`      |
-| **V**isual Mode   | Selecionar texto  |                  | `v`    | `<esc>`      |
-| Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |
+| Modo              | Utilidade         |                  | Atalho | Sair do modo | Atalho 2   |
+| ----------------- | ----------------- | ---------------- | ------ | ------------ | ---------- |
+| Normal Mode       | Executar comandos | **default mode** |        |              |            |
+| **I**nsert Mode   | Inserir texto     |                  | `i`    | `<esc>`      | `<insert>` |
+| **V**isual Mode   | Selecionar texto  |                  | `v`    | `<esc>`      |            |
+| Command-line Mode | Linha de comandos |                  | `:`    | `<esc>`      |            |
 
 É por isso que pessoas novas ficam perdidas no Vim. Elas começam a tentar escrever texto sem antes entrarem no modo que permite escrever (**Insert Mode**).  
 

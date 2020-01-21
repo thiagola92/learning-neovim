@@ -4,13 +4,11 @@ As teclas normais são guardadas para comandos muito utilizados durante o Vim (s
 > Não se esqueça que Vim é sensível a caracter, `K` é diferente de `k`
 
 ## Move up, down, left and right
-Mover se pelo editor de texto é essencial para o dia-a-dia e muitas vezes utilizamos o mouse para selecionar onde queremos ir do texto. Vim não conta com suporte para mouse para suas tarefas.  
+Mover se pelo editor de texto é essencial para o dia-a-dia e muitas vezes utilizamos o mouse para selecionar onde queremos ir do texto. Porém Vim não conta com suporte para mouse para suas tarefas, isto ocorre pelo design original do teclado da época:  
 
-> Nem sempre você vai ter suporte a mouse (boot de inicialização)
+![teclado original do Vim](vim_keyboard.jpg)  
 
-> Pessoas argumentam que é melhor desta maneira pois você não perde tempo tirando a mão do teclado
-
-Muitos dos atalhos do Vim partiam do princípio que não se possuia mouse ou as teclas setas separadas ([Teclado original do Vim](vim_keyboard.jpg)). Por isto as teclas `h`, `j`, `k` e `l` eram utilizadas para se mover no texto. Hoje em dia essas teclas continuaram padrão mas as setas também fazem a mesma tarefa.   
+Por isto muitos dos atalhos são teclas que hoje em dia é considerado estranho. Observe que o teclado não possuía teclas como `<right>`, `<up>`, `<left>`, `<down>`, `<end>`, `<pg up>` e `<pg down>`...  
 
 | Atalho | Ação                      | Dica                                                   | Atalho 2  |
 | ------ | ------------------------- | ------------------------------------------------------ | --------- |
@@ -19,7 +17,7 @@ Muitos dos atalhos do Vim partiam do princípio que não se possuia mouse ou as 
 | `k`    | Mover para cima           |                                                        | `<up>`    |
 | `l`    | Mover para direita        | A tecla mais na **direita**, move para a **direita**   | `<right>` |
 
-> Normalmente `<shift>` seria usado para ajudar a selecionar enquanto move, porém selecionar é algo exclusivo do **Visual Mode** pois `H`, `J`, `K` e `L` são atalhos para outros comandos. Com o surgimento de teclas extras como `<right>`, `<up>`, `<home>`, `<pg down>`... Foram incluidos comandos a elas com e sem o shift também.  
+E é por isto também que muitas vezes você vai encontrar atalhos atuais fazendo a mesma coisa que atalhos antigos do Vim.  
 
 ## Move word
 
@@ -44,17 +42,13 @@ Muitos dos atalhos do Vim partiam do princípio que não se possuia mouse ou as 
 
 ## Move start/end of line
 
-| Atalho | Ação                         | Atalho 2    |
-| ------ | ---------------------------- | ----------- |
-| `$`    | Mover para o início da linha | `<home>`    |
-| `0`    | Mover para o final da linha  | `<end>`     |
+| Atalho | Ação                                               | Atalho 2    |
+| ------ | -------------------------------------------------- | ----------- |
+| `$`    | Mover para o início da linha                       | `<home>`    |
+| `0`    | Mover para o final da linha                        | `<end>`     |
+| `^`    | Mover para o primeiro caracter não-branco da linha |             |
+
+> `^` equivalente a usar `<home>` e `<ctrl>` + `<right>`  
 
 # Visual Mode
-Muitas vezes os comandos neste modo se aproveitam dos comandos do **Normal Mode**.  
-Por exemplo, ao entrar neste modo você continua a poder usar dos atalhos normais de movimentação para ajuda-lo a selecionar o texto.  
-
-# Undo
-
-| Atalho | Ação                      | Dica     |
-| ------ | ------------------------- | -------- |
-| `u`    | Desfazer a última mudança | **U**ndo |
+Muitas vezes os comandos neste modo se aproveitam dos comandos do **Normal Mode**. Por exemplo, ao entrar neste modo você continua a poder usar dos atalhos normais de movimentação para ajuda-lo a selecionar o texto.  

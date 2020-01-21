@@ -28,3 +28,6 @@ Você deve ser capaz de **escrever** texto no arquivo, **salvar** o arquivo e **
 * [Capítulo 1](chapter01/README.md)
   * Aprender o suficiente para ser capaz de escrever texto, salvar texto e sair do Vim
 * [Capítulo 2](chapter02/README.md)
+  * Aprender o mínimo para conseguir se movimentar pelo editor de texto
+* [Capítulo 3](chapter03/README.md)
+  * Aprender mais sobre movimentação
