@@ -42,13 +42,23 @@ E é por isto também que muitas vezes você vai encontrar atalhos atuais fazend
 
 ## Move start/end of line
 
-| Atalho | Ação                                               | Atalho 2    |
-| ------ | -------------------------------------------------- | ----------- |
-| `$`    | Mover para o início da linha                       | `<home>`    |
-| `0`    | Mover para o final da linha                        | `<end>`     |
-| `^`    | Mover para o primeiro caracter não-branco da linha |             |
+| Atalho | Ação                                               | Atalho 2 | Atalho 3    |
+| ------ | -------------------------------------------------- | -------- | ----------- |
+| `0`    | Mover para o início da linha                       | `|`      | `<home>`    |
+| `$`    | Mover para o final da linha                        |          | `<end>`     |
+| `^`    | Mover para o primeiro caracter não-branco da linha | `_`      |             |
 
-> `^` equivalente a usar `<home>` e `<ctrl>` + `<right>`  
+> Barra em pé, início da linha  
+> Barra deitada, início após pular todo caracter não-branco  
+![Barra se movendo](bar_moving.gif)  
+
+## Move across the screen
+
+| Atalho | Ação                          | Dica       |
+| ------ | ----------------------------- | ---------- |
+| `H`    | Mover para o topo da tela     | **H**igh   |
+| `M`    | Mover para o meio da tela     | **M**iddle |
+| `L`    | Mover para o inferior da tela | **L**ow    |
 
 # Visual Mode
 Muitas vezes os comandos neste modo se aproveitam dos comandos do **Normal Mode**. Por exemplo, ao entrar neste modo você continua a poder usar dos atalhos normais de movimentação para ajuda-lo a selecionar o texto.  

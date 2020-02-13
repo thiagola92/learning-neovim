@@ -1,9 +1,8 @@
 # Normal Mode
 
-## Move across the screen
+## Move start/end of file
 
-| Atalho | Ação                          | Dica       |
-| ------ | ----------------------------- | ---------- |
-| `H`    | Mover para o topo da tela     | **H**igh   |
-| `M`    | Mover para o meio da tela     | **M**iddle |
-| `L`    | Mover para o inferior da tela | **L**ow    |
+| Atalho | Ação                            | Dica               | Atalho 2            |
+| ------ | ------------------------------- | ------------------ | ------------------- |
+| `1G`   | Mover para o início do arquivo  | Line **1**, **G**o | `<ctrl>` + `<home>` |
+| `G`    | Mover para o final do arquivo   | **G**o             | `<ctrl>` + `<end>`  |

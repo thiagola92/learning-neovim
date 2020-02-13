@@ -30,4 +30,4 @@ Você deve ser capaz de **escrever** texto no arquivo, **salvar** o arquivo e **
 * [Capítulo 2](chapter02/README.md)
   * Aprender o mínimo para conseguir se movimentar pelo editor de texto
 * [Capítulo 3](chapter03/README.md)
-  * Aprender mais sobre movimentação
+  * Aprender o avançado de movimentação pelo editor de texto
