@@ -60,5 +60,17 @@ E é por isto também que muitas vezes você vai encontrar atalhos atuais fazend
 | `M`    | Mover para o meio da tela     | **M**iddle |
 | `L`    | Mover para o inferior da tela | **L**ow    |
 
+## Move to line
+
+| Atalho  | Ação                       | Dica                | Atalho 2            |
+| ------- | -------------------------- | ------------------- | ------------------- |
+| `1G`    | Mover para primeira linha  | Line **1**, **G**o  | `<ctrl>` + `<home>` |
+| `20G`   | Mover para linha 20        | Line **20**, **G**o |                     |
+| `G`     | Mover para última linha    | **G**o              | `<ctrl>` + `<end>`  |
+
+Mover para uma linha especifica pode ser um tanto quanto difícil se você não botar para as linhas aparecerem. Utilizando `:set number` as linhas iram aparecer enquanto você não fechar o Vim.
+
+> Ficar digitando esse comando o tempo todo pode ser chato então próximo capitulo iremos alterar as configurações do Vim
+
 # Visual Mode
 Muitas vezes os comandos neste modo se aproveitam dos comandos do **Normal Mode**. Por exemplo, ao entrar neste modo você continua a poder usar dos atalhos normais de movimentação para ajuda-lo a selecionar o texto.  
