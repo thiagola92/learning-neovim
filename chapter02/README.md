@@ -44,7 +44,7 @@ E é por isto também que muitas vezes você vai encontrar atalhos atuais fazend
 
 | Atalho | Ação                                               | Atalho 2 | Atalho 3    |
 | ------ | -------------------------------------------------- | -------- | ----------- |
-| `0`    | Mover para o início da linha                       | `\|`      | `<home>`    |
+| `0`    | Mover para o início da linha                       | `\|`     | `<home>`    |
 | `$`    | Mover para o final da linha                        |          | `<end>`     |
 | `^`    | Mover para o primeiro caracter não-branco da linha | `_`      |             |
 
