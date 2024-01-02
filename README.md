@@ -21,6 +21,7 @@ Você deve ser capaz de **escrever** texto no arquivo, **salvar** o arquivo e **
   * teclas `<ctrl>` + `w`...  
 * Apertar uma sequência de teclas vai ser representado em apenas uma formatação.  
   * apertar teclas `ydp` (`y`,`d`,`p`), apertar teclas `:q!` (`:`,`q`,`!`)...  
+  * isso quer dizer que você precisa soltar a anterior antes de apertar a próxima.
 * Qualquer outro caso eu tentarei deixar claro o que você deve apertar.  
 
 # Chapter
@@ -31,3 +32,7 @@ Você deve ser capaz de **escrever** texto no arquivo, **salvar** o arquivo e **
   * Aprender o mínimo para conseguir se movimentar pelo editor de texto
 * [Capítulo 3](chapter03/README.md)
   * Aprender o mínimo de configuração do editor de texto
+
+# Reference
+- https://neovim.io/doc/user/quickref.html  
+- https://www.youtube.com/watch?v=X6AR2RMB5tE  

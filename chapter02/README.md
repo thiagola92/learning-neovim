@@ -49,7 +49,7 @@ E é por isto também que muitas vezes você vai encontrar atalhos atuais fazend
 | `^`    | Mover para o primeiro caracter não-branco da linha | `_`      |             |
 
 > Barra em pé, início da linha  
-> Barra deitada, início após pular todo caracter não-branco  
+> Barra deitada, início após pular todo caracter branco  
 ![Barra se movendo](bar_moving.gif)  
 
 ## Move across the screen
